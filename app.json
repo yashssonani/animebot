@@ -1,0 +1,5 @@
+{
+  "name": "animebot",
+  "repository": "https://github.com/yashsonani/animebot",
+  "buildpack" : "heroku/python"
+}
