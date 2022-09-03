@@ -1,5 +1,10 @@
 {
   "name": "animebot",
   "repository": "https://github.com/yashsonani/animebot",
-  "buildpack" : "heroku/python"
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  }]
+  
 }
